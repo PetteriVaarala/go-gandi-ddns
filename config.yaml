@@ -1,0 +1,22 @@
+# Define provider URL to fetch the IP from
+# E.g.
+# - https://wtfismyip.com/text
+# - https://ifconfig.co/ip
+# - http://plain-text-ip.com
+# - https://api.ipify.org
+ipProvider: https://wtfismyip.com/text
+
+gandi_api_endpoint: https://dns.api.gandi.net/api/v5
+
+# https://account.gandi.net/en/ -> Security -> Production API key
+# Override with env value GANDI_API_SECRET
+gandi_api_secret: 'my_secret_API_KEY'
+
+# DNS record values
+# Override with env values DOMAIN, SUBDOMAIN
+domain: mydomain.tld
+subdomain: dyndns
+ttl: 300
+
+# Interval for the IP change checks
+interval: 600
