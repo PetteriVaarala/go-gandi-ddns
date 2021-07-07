@@ -19,4 +19,4 @@ subdomain: dyndns
 ttl: 300
 
 # Interval for the IP change checks
-interval: 600
+interval: 3600
